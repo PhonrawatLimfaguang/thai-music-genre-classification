@@ -1,0 +1,15 @@
+# ปิดกั้นไฟล์เสียงทั้งหมด
+*.mp3
+*.wav
+*.m4a
+
+# ปิดกั้นข้อมูลในโฟลเดอร์ Dataset แต่ยกเว้นไฟล์ .gitkeep ไว้
+Dataset/**/*
+!Dataset/**/.gitkeep
+
+Unseen_Data/**/*
+!Unseen_Data/**/.gitkeep
+
+# ไฟล์ขยะอื่นๆ
+__pycache__/
+.DS_Store
